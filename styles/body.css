@@ -1,0 +1,73 @@
+/* Body Wrapper Styles */
+.body-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-image: linear-gradient(to right,  rgba(45,48,55,255), rgba(10,10,12,255));
+    margin: 8px -8px 0px -8px;
+}
+
+/* CodePen Content Styles */
+.codepen-content-wrapper  {
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    font-size: 1.6em;
+    padding-left: 76px;
+}
+
+.codepen-content-wrapper h1, h2 {
+    font-weight: 300;
+}
+
+.codepen-content-wrapper h1 span {
+    color: white;
+}
+
+
+.codepen-content-btn-wrapper {
+    display: flex;
+}
+
+.codepen-content-btn-wrapper > .sign-up-btn {
+    margin-right: 48px;
+}
+
+.codepen-content-btn-wrapper > .sign-up-btn > .btn {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: 400;
+    background-color: rgba(75,206,121,255);
+    border: 1px solid rgba(75,206,121,255);
+    border-radius: 7px;
+}
+
+.codepen-content-btn-wrapper > .learn-more-btn > .btn {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 7px;    
+}
+
+
+/* CodePen Projects Styles */
+.codepen-projects-wrapper {
+    padding-top: 35px;
+}
+
+.codepen-projects-wrapper h3 {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 1.4em;
+}
+
+.codepen-projects-wrapper h3 span {
+    color: rgba(83,206,247,255);
+}
+
+.codepen-projects-wrapper > .img-wrapper img {
+    width: 600px;
+    height: 550px;
+}

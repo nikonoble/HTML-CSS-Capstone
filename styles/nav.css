@@ -1,0 +1,94 @@
+
+/* Navigation Wrapper */
+.navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr ;
+    background-color: black;
+    color: #cbcbcb;
+    margin: -8px;
+    margin-bottom: -19px;
+    border-bottom-width: 24px;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+
+/* Left Column Styles */
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 300px;
+    padding: 20px 50px 0px 20px;
+}
+
+
+/* Center Column Styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 656px;
+}
+
+.heading {
+    color: #cea135;
+    font-size: 0.8em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link  a {
+    font-family: "Roboto", sans-serif;
+    color: #cbcbcb;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.7em;
+}
+
+.links-wrapper > .nav-link > #spark a {
+    color: gray;
+    font-size: 1.3em;
+    font-weight: 400
+}
+
+
+/* Right Column Styles */
+.right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding-right: 17px;
+}
+
+.btn {
+    background-color: gray;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 18px;
+    
+}
+
+.right-column > .create-btn-wrapper i {
+    color:rgb(44, 255, 37);
+}
+
+.right-column > .search-icon i {
+        font-size: 2.7em;
+}
+
+
+

@@ -1,0 +1,61 @@
+/* Footer Wrapper Styles */
+.footer-wrapper .footer-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+
+/* Footer Btn Styles */
+.footer-wrapper .footer-btn-wrapper > .teams > .btn {
+    background-color: rgba(54,56,63,255);
+    border: solid rgba(88,88,90,255);
+    border-radius: 0%;
+    width: 436.105px;
+}
+
+.footer-wrapper > .footer-btn-wrapper > .teams > .btn span {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.footer-wrapper .footer-btn-wrapper > .education > .btn {
+    background-color: rgba(54,56,63,255);
+    border: solid rgba(88,88,90,255);
+    border-radius: 0%;
+    width: 436.105px;    
+}
+
+.footer-wrapper > .footer-btn-wrapper > .education > .btn span {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.footer-wrapper .footer-btn-wrapper > .privacy > .btn {
+    background-color: rgba(54,56,63,255);
+    border: solid rgba(88,88,90,255);
+    border-radius: 0%;
+    width: 436.105px;   
+}
+
+.footer-wrapper > .footer-btn-wrapper > .privacy > .btn span {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.footer-wrapper .footer-btn-wrapper > .writing > .btn {
+    background-color: rgba(54,56,63,255);
+    border: solid rgba(88,88,90,255);
+    border-radius: 0%;
+    width: 436.105px;    
+}
+
+.footer-wrapper > .footer-btn-wrapper > .writing > .btn span {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+}
